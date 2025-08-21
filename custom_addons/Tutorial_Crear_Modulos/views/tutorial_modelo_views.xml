@@ -1,0 +1,38 @@
+<odoo>
+    <record id="view_tutorial_list" model="ir.ui.view">
+        <field name="name">tutorial.modulo.list</field>
+        <field name="model">tutorial.modulo</field>
+        <field name="type">list</field>
+        <field name="arch" type="xml">
+            <list string="Tutorial Lista">
+                <field name="name"/>
+                <field name="descripcion"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_tutorial_form" model="ir.ui.view">
+        <field name="name">tutorial.modulo.form</field>
+        <field name="model">tutorial.modulo</field>
+        <field name="arch" type="xml">
+            <form string="Tutorial Formulario">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="descripcion"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_tutorial_modulo" model="ir.actions.act_window">
+        <field name="name">Tutorial Items</field>
+        <field name="res_model">tutorial.modulo</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="view_tutorial_list"/>
+    </record>
+
+    <menuitem id="menu_tutorial_root" name="Tutorial Módulo"/>
+    <menuitem id="menu_tutorial_items" name="Items" parent="menu_tutorial_root" action="action_tutorial_modulo"/>
+</odoo>

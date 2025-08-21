@@ -1,0 +1,23 @@
+<odoo>
+    <record id="view_task_kanban_priority_inherit" model="ir.ui.view">
+        <field name="name">project.task.kanban.priority</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_kanban"/>
+        <field name="arch" type="xml">
+            <xpath expr="//kanban" position="inside">
+                <field name="priority"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Agregar estilos de prioridad -->
+    <template id="assets_backend" inherit_id="web.assets_backend" name="note_priority_assets">
+        <xpath expr="." position="inside">
+            <style>
+                .o_kanban_record.priority-0 { background-color: #d4edda !important; } /* Verde - Baja */
+                .o_kanban_record.priority-1 { background-color: #fff3cd !important; } /* Amarillo - Media */
+                .o_kanban_record.priority-2 { background-color: #f8d7da !important; } /* Rojo - Alta */
+            </style>
+        </xpath>
+    </template>
+</odoo>
