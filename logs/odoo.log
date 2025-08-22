@@ -1,0 +1,186 @@
+2025-08-21 22:33:52,512 25316 INFO ? odoo: Odoo version 18.0 
+2025-08-21 22:33:52,513 25316 INFO ? odoo: Using configuration file at C:\Users\albar\Desktop\Project-Odoo\odoo.conf 
+2025-08-21 22:33:52,513 25316 INFO ? odoo: addons paths: ['C:\\Users\\albar\\Desktop\\Project-Odoo\\odoo\\odoo\\addons', 'c:\\users\\albar\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'c:\\users\\albar\\desktop\\project-odoo\\custom_addons', 'c:\\users\\albar\\desktop\\project-odoo\\odoo\\addons', 'c:\\users\\albar\\desktop\\project-odoo\\odoo\\odoo\\addons'] 
+2025-08-21 22:33:52,514 25316 INFO ? odoo: database: odoo@localhost:5432 
+2025-08-21 22:33:52,722 25316 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-08-21 22:33:52,725 25316 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-08-21 22:33:53,082 25316 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-4LBQ94LG.huawei.net:8070 
+2025-08-21 22:33:53,143 25316 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2025-08-21 22:33:53,151 25316 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-08-21 22:33:53,226 25316 INFO odoo_db odoo.modules.loading: loading 80 modules... 
+2025-08-21 22:33:54,800 25316 INFO odoo_db odoo.modules.loading: 80 modules loaded in 1.57s, 0 queries (+0 extra) 
+2025-08-21 22:33:55,058 25316 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2025-08-21 22:33:55,065 25316 INFO odoo_db odoo.modules.registry: Registry loaded in 1.983s 
+2025-08-21 22:34:36,407 25316 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-08-21 22:34:36,475 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:36] "GET / HTTP/1.1" 303 - 12 0.032 0.044
+2025-08-21 22:34:36,487 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:36] "GET /es/ HTTP/1.1" 301 - 1 0.001 0.005
+2025-08-21 22:34:36,575 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:36] "GET /es HTTP/1.1" 303 - 20 0.056 0.021
+2025-08-21 22:34:36,585 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:36] "GET /blog/3 HTTP/1.1" 303 - 1 0.000 0.004
+2025-08-21 22:34:46,678 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:46] "GET /es/blog/3 HTTP/1.1" 301 - 11 0.009 10.080
+2025-08-21 22:34:50,037 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:50] "GET /es/blog/noticias-3 HTTP/1.1" 200 - 172 0.096 3.258
+2025-08-21 22:34:50,097 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:50] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.018
+2025-08-21 22:34:50,267 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:50] "GET /web/assets/1/fd165cf/web.assets_frontend.min.css HTTP/1.1" 200 - 7 0.004 0.175
+2025-08-21 22:34:50,308 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:50] "GET /web/assets/1/c56b4ed/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 7 0.008 0.189
+2025-08-21 22:34:50,559 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:50] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.020
+2025-08-21 22:34:50,560 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:50] "GET /web/static/img/odoo_logo_tiny.png HTTP/1.1" 200 - 0 0.000 0.017
+2025-08-21 22:34:50,567 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:50] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 200 - 0 0.000 0.027
+2025-08-21 22:34:50,580 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:50] "GET /web/image/website/1/logo/My%20Website?unique=13a694c HTTP/1.1" 200 - 8 0.008 0.033
+2025-08-21 22:34:50,797 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:50] "GET /web/image/website/1/favicon?unique=13a694c HTTP/1.1" 200 - 8 0.007 0.021
+2025-08-21 22:34:51,168 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:51] "GET /web/assets/1/6c9642b/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 7 0.027 0.370
+2025-08-21 22:34:51,293 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:51] "GET /website/translations/749dc2c851ffe47bcac143d2d5c8b6bbee7dd488?lang=es_419 HTTP/1.1" 303 - 1 0.001 0.004
+2025-08-21 22:34:51,325 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:51] "GET /es/website/translations/749dc2c851ffe47bcac143d2d5c8b6bbee7dd488?lang=es_419 HTTP/1.1" 200 - 4 0.002 0.025
+2025-08-21 22:34:54,705 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:54] "GET /web/login HTTP/1.1" 303 - 1 0.002 0.002
+2025-08-21 22:34:54,773 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:54] "GET /es/web/login HTTP/1.1" 200 - 18 0.015 0.049
+2025-08-21 22:34:54,866 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:34:54] "GET /website/translations/749dc2c851ffe47bcac143d2d5c8b6bbee7dd488?lang=es_419 HTTP/1.1" 303 - 1 0.001 0.006
+2025-08-21 22:34:55,340 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-08-21 22:34:55,355 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.014s 
+2025-08-21 22:34:55,360 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-08-21 22:34:55,367 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-08-21 22:34:55,381 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-08-21 22:34:55,393 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.010s 
+2025-08-21 22:34:55,396 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-08-21 22:34:55,401 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-08-21 22:34:55,408 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-08-21 22:34:55,416 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.008s 
+2025-08-21 22:34:55,420 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-08-21 22:34:55,424 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-08-21 22:34:55,431 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-08-21 22:34:55,441 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.010s 
+2025-08-21 22:34:55,444 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-08-21 22:34:55,449 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-08-21 22:34:55,458 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-08-21 22:34:55,460 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.002s 
+2025-08-21 22:34:55,465 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-08-21 22:34:55,469 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-08-21 22:35:00,682 25316 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:admin from 192.168.1.244 
+2025-08-21 22:35:00,705 25316 INFO odoo_db odoo.modules.registry: Caches invalidated, signaling through the database: ['default'] 
+2025-08-21 22:35:00,706 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:00] "POST /web/login HTTP/1.1" 303 - 51 0.039 0.665
+2025-08-21 22:35:00,722 25316 INFO odoo_db odoo.addons.base.models.res_device: User 2 inserts device log (KBHzX8O-7NLNEYK2zxMTcHHzajLhkfjIoZTw6RsM7g) 
+2025-08-21 22:35:02,028 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:02] "GET /odoo HTTP/1.1" 200 - 105 0.077 1.242
+2025-08-21 22:35:02,122 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:02] "GET /web/webclient/translations/10c28cbeb5de4e91ca05778781bc2fa83ab2f8fd?lang=en_US HTTP/1.1" 200 - 1 0.005 0.060
+2025-08-21 22:35:02,138 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:02] "GET /web/assets/690e22a/web.assets_web.min.css HTTP/1.1" 200 - 3 0.005 0.077
+2025-08-21 22:35:02,189 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:02] "GET /web/assets/40889c7/web.assets_web_print.min.css HTTP/1.1" 200 - 3 0.003 0.024
+2025-08-21 22:35:02,226 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:02] "GET /web/webclient/load_menus/23a2946003f87c901e69d843b935d7418a47d27c753b4796db4478889f284bcc HTTP/1.1" 200 - 98 0.059 0.110
+2025-08-21 22:35:02,605 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:02] "GET /web/assets/aace7f6/web.assets_web.min.js HTTP/1.1" 200 - 3 0.004 0.546
+2025-08-21 22:35:02,927 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:02] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.003
+2025-08-21 22:35:02,975 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:02] "GET /bus/websocket_worker_bundle?v=18.0-5 HTTP/1.1" 200 - 4 0.003 0.036
+2025-08-21 22:35:03,154 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 7 0.012 0.077
+2025-08-21 22:35:03,155 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "GET /web/image/res.partner/3/avatar_128?unique=1755752344000 HTTP/1.1" 200 - 7 0.016 0.072
+2025-08-21 22:35:03,155 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "POST /web/action/load HTTP/1.1" 200 - 6 0.038 0.049
+2025-08-21 22:35:03,163 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 1 0.004 0.069
+2025-08-21 22:35:03,333 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "POST /mail/data HTTP/1.1" 200 - 65 0.133 0.111
+2025-08-21 22:35:03,405 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "POST /mail/data HTTP/1.1" 200 - 65 0.092 0.056
+2025-08-21 22:35:03,521 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.006 0.008
+2025-08-21 22:35:03,549 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "GET /web/image/discuss.channel/1/avatar_128?unique=131aa96855cd1b675bcf86e0900d5c7ca287063e7e3aff722dfbd9fd6c499b6dd91ca2408ac5deb157235cebc12e46f7a2e4716a23dc6b1274055513d6c1a0cc HTTP/1.1" 200 - 9 0.014 0.013
+2025-08-21 22:35:03,551 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "GET /web/image/discuss.channel/2/avatar_128?unique=04a33f9d3396c442b7e0648e1b138e839bd580e557921b9d87f75d7f0197c6ae745d5a93229ed440af35ed22231c0b9de035f4170e7dbcb4be89fe069fcf9deb HTTP/1.1" 200 - 9 0.017 0.016
+2025-08-21 22:35:03,586 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:03] "GET /web/image/res.partner/2/avatar_128?unique=1755719968000 HTTP/1.1" 200 - 15 0.039 0.026
+2025-08-21 22:35:03,771 25316 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-08-21 22:35:09,963 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:09] "POST /web/action/load HTTP/1.1" 200 - 10 0.016 0.010
+2025-08-21 22:35:10,023 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:10] "POST /web/dataset/call_kw/tutorial.modulo/get_views HTTP/1.1" 200 - 20 0.022 0.012
+2025-08-21 22:35:10,045 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:10] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.004
+2025-08-21 22:35:10,049 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:10] "POST /web/dataset/call_kw/tutorial.modulo/web_search_read HTTP/1.1" 200 - 3 0.005 0.005
+2025-08-21 22:35:14,139 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "POST /web/action/load HTTP/1.1" 200 - 10 0.006 0.008
+2025-08-21 22:35:14,231 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 50 0.028 0.055
+2025-08-21 22:35:14,243 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.003
+2025-08-21 22:35:14,292 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 56 0.030 0.022
+2025-08-21 22:35:14,343 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.006 0.091
+2025-08-21 22:35:14,499 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-08-21 22:35:14,509 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-08-21 22:35:14,534 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.030
+2025-08-21 22:35:14,535 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.032
+2025-08-21 22:35:14,545 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.021
+2025-08-21 22:35:14,565 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-08-21 22:35:14,577 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-08-21 22:35:14,585 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-08-21 22:35:14,587 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-08-21 22:35:14,593 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-08-21 22:35:14,593 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-08-21 22:35:14,604 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2025-08-21 22:35:14,605 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2025-08-21 22:35:14,609 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.018
+2025-08-21 22:35:14,613 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2025-08-21 22:35:14,641 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.020
+2025-08-21 22:35:14,653 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.014
+2025-08-21 22:35:14,658 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.019
+2025-08-21 22:35:14,664 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2025-08-21 22:35:14,666 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-08-21 22:35:14,673 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-08-21 22:35:14,675 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-08-21 22:35:14,686 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.027
+2025-08-21 22:35:14,690 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2025-08-21 22:35:14,695 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /marketing_card/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-08-21 22:35:14,698 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.007
+2025-08-21 22:35:14,703 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2025-08-21 22:35:14,706 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.013
+2025-08-21 22:35:14,714 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.008
+2025-08-21 22:35:14,716 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-08-21 22:35:14,720 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-08-21 22:35:14,722 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.013
+2025-08-21 22:35:14,722 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.014
+2025-08-21 22:35:14,731 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-08-21 22:35:14,738 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.014
+2025-08-21 22:35:14,740 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.019
+2025-08-21 22:35:14,741 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.014
+2025-08-21 22:35:14,744 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.019
+2025-08-21 22:35:14,750 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2025-08-21 22:35:14,753 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.018
+2025-08-21 22:35:14,756 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.013
+2025-08-21 22:35:14,765 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-08-21 22:35:14,770 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2025-08-21 22:35:14,775 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-08-21 22:35:14,779 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.026
+2025-08-21 22:35:14,785 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.018
+2025-08-21 22:35:14,789 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2025-08-21 22:35:14,796 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-08-21 22:35:14,799 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.009
+2025-08-21 22:35:14,816 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.008
+2025-08-21 22:35:14,818 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-08-21 22:35:14,821 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.014
+2025-08-21 22:35:14,824 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2025-08-21 22:35:14,825 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-08-21 22:35:14,829 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2025-08-21 22:35:14,832 25316 INFO ? werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:14] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2025-08-21 22:35:16,773 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 52 0.013 0.017
+2025-08-21 22:35:16,817 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:35:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.006 0.036
+2025-08-21 22:36:00,875 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 52 0.038 0.025
+2025-08-21 22:36:00,894 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:00] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.011
+2025-08-21 22:36:04,396 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:04] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 52 0.050 0.012
+2025-08-21 22:36:04,417 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:04] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.011
+2025-08-21 22:36:07,520 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:07] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 52 0.054 0.028
+2025-08-21 22:36:07,540 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:07] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.010 0.007
+2025-08-21 22:36:22,207 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:22] "POST /web/dataset/call_kw/tutorial.modulo/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2025-08-21 22:36:29,194 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:29] "POST /web/dataset/call_kw/tutorial.modulo/web_read HTTP/1.1" 200 - 2 0.002 0.003
+2025-08-21 22:36:35,287 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:35] "POST /web/dataset/call_kw/tutorial.modulo/web_save HTTP/1.1" 200 - 4 0.004 0.007
+2025-08-21 22:36:36,113 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:36] "POST /web/dataset/call_kw/tutorial.modulo/web_search_read HTTP/1.1" 200 - 2 0.003 0.004
+2025-08-21 22:36:39,763 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:39] "POST /web/dataset/call_kw/tutorial.modulo/web_read HTTP/1.1" 200 - 2 0.001 0.005
+2025-08-21 22:36:42,685 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:42] "POST /web/dataset/call_kw/tutorial.modulo/onchange HTTP/1.1" 200 - 2 0.003 0.006
+2025-08-21 22:36:46,339 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:46] "POST /web/dataset/call_kw/tutorial.modulo/web_save HTTP/1.1" 200 - 4 0.001 0.007
+2025-08-21 22:36:47,954 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:47] "POST /web/dataset/call_kw/tutorial.modulo/web_search_read HTTP/1.1" 200 - 2 0.000 0.004
+2025-08-21 22:36:51,796 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:51] "POST /web/dataset/call_kw/tutorial.modulo/web_read HTTP/1.1" 200 - 2 0.002 0.006
+2025-08-21 22:36:56,043 25316 INFO odoo_db odoo.models.unlink: User #2 deleted tutorial.modulo records with IDs: [1] 
+2025-08-21 22:36:56,046 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:56] "POST /web/dataset/call_kw/tutorial.modulo/unlink HTTP/1.1" 200 - 6 0.004 0.006
+2025-08-21 22:36:56,056 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:56] "POST /web/dataset/call_kw/tutorial.modulo/web_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-08-21 22:36:59,355 25316 INFO odoo_db werkzeug: 192.168.1.244 - - [21/Aug/2025 22:36:59] "POST /web/dataset/call_kw/tutorial.modulo/web_search_read HTTP/1.1" 200 - 2 0.001 0.006
+2025-08-21 23:29:51,322 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-08-21 23:29:51,329 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.008s 
+2025-08-21 23:29:51,338 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-08-21 23:29:51,340 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-08-21 23:29:51,340 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-08-21 23:29:51,354 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.014s 
+2025-08-21 23:29:51,354 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-08-21 23:29:51,360 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-08-21 23:29:51,368 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-08-21 23:29:51,375 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.006s 
+2025-08-21 23:29:51,378 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-08-21 23:29:51,381 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-08-21 23:29:51,387 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-08-21 23:29:51,394 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.007s 
+2025-08-21 23:29:51,395 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-08-21 23:29:51,402 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-08-21 23:29:51,402 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-08-21 23:29:51,412 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.010s 
+2025-08-21 23:29:51,412 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-08-21 23:29:51,412 25316 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-08-21 23:31:16,931 25316 INFO odoo_db odoo.service.server: Initiating shutdown 
+2025-08-21 23:31:16,931 25316 INFO odoo_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-08-21 23:31:17,419 25316 INFO odoo_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
